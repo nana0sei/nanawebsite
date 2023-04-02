@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "joWrote";
+  src: local("joWrote"), url("./fonts/joWrote.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "futura heavy";
+  src: local("futura heavy"), url("./fonts/futura heavy.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "futura light";
+  src: local("futura light"), url("./fonts/futura light.ttf") format("truetype");
+}

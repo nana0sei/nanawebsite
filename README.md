@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This is my art portfolio website. I will update it as my skill level increases.
+This is my digital art portfolio website. I will update it as my skill level increases.\
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

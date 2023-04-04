@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import NavSecondary from "./navSecondary";
 import smc from "../images/smc.JPG";
-import casestody from "../images/casestody.jpg";
 import mayasweb from "../images/mayasweb.PNG";
 import sketch1 from "../images/rl/sketch1.JPG";
 import sketch2 from "../images/rl/sketch2.JPG";

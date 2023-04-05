@@ -7,13 +7,13 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./fonts/joWrote.ttf";
 import "./fonts/futura heavy.ttf";
 import "./fonts/futura light.ttf";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <App />
-  </BrowserRouter>
+  </HashRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

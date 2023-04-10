@@ -4,7 +4,7 @@ class Navbar extends Component {
   state = {};
   render() {
     return (
-      <nav class=" navbar fixed-top bg-white shadow-sm">
+      <nav class=" navbar sticky-top bg-white shadow-sm">
         <a href="/" className="navbar-brand font-face-jw m-2">
           nana osei
         </a>

@@ -5,13 +5,17 @@ class NavSecondary extends Component {
   render() {
     return (
       <nav class=" navbar sticky-top bg-white shadow-sm">
-        <a href="/" className="navbar-brand font-face-jw m-2">
+        <a href="/nanawebsite" className="navbar-brand font-face-jw m-2">
           nana osei
         </a>
 
         <ul className="nav justify-content-end font-face-fh">
           <li className="nav-item">
-            <a className="nav-link btn btn-link" aria-current="page" href="/">
+            <a
+              className="nav-link btn btn-link"
+              aria-current="page"
+              href="/nanawebsite"
+            >
               about
             </a>
           </li>

@@ -23,7 +23,7 @@ class App extends Component {
         {/* SSR Implementation of HelmetProvider. Remove the context for CSR */}
         <div>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/nanawebsite" element={<Home />} />
             <Route path="/ladyleg" element={<LadyLeg />} />
             <Route path="/smc" element={<Smc />} />
             <Route path="/mayasweb" element={<MayasWeb />} />

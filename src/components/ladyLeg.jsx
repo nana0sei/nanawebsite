@@ -182,7 +182,7 @@ class LadyLeg extends Component {
                     <p className="card-text">
                       <i>Merch for Sony Music Recording Camp</i>
                     </p>
-                    <a href="/smc" className="btn btn-primary">
+                    <a href="/nanawebsite/smc" className="btn btn-primary">
                       See details
                     </a>
                   </div>
@@ -197,7 +197,7 @@ class LadyLeg extends Component {
                     <p className="card-text">
                       <i>Art direction for an EP</i>
                     </p>
-                    <a href="mayasweb" className="btn btn-primary">
+                    <a href="/nanawebsite/mayasweb" className="btn btn-primary">
                       See details
                     </a>
                   </div>

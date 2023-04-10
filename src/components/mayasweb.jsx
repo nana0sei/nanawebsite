@@ -328,7 +328,7 @@ class MayasWeb extends Component {
                     <p className="card-text">
                       <i>Emote set for a Twitch streamer</i>
                     </p>
-                    <a href="/ladyleg" className="btn btn-primary">
+                    <a href="/nanawebsite/ladyleg" className="btn btn-primary">
                       See details
                     </a>
                   </div>
@@ -345,7 +345,7 @@ class MayasWeb extends Component {
                     <p className="card-text">
                       <i>Merch for Sony Music Recording Camp</i>
                     </p>
-                    <a href="/smc" className="btn btn-primary">
+                    <a href="/nanawebsite/smc" className="btn btn-primary">
                       See details
                     </a>
                   </div>

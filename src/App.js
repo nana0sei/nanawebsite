@@ -24,9 +24,9 @@ class App extends Component {
         <div>
           <Routes>
             <Route path="/nanawebsite" element={<Home />} />
-            <Route path="/ladyleg" element={<LadyLeg />} />
-            <Route path="/smc" element={<Smc />} />
-            <Route path="/mayasweb" element={<MayasWeb />} />
+            <Route path="/nanawebsite/ladyleg" element={<LadyLeg />} />
+            <Route path="/nanawebsite/smc" element={<Smc />} />
+            <Route path="/nanawebsite/mayasweb" element={<MayasWeb />} />
           </Routes>
 
           <ScrollToTop smooth color="blue" top={500} />

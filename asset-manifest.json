@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nanawebsite/static/css/main.f8d0262f.css",
-    "main.js": "/nanawebsite/static/js/main.e2e6a51a.js",
+    "main.js": "/nanawebsite/static/js/main.9b8a8642.js",
     "static/js/787.b8eae7b8.chunk.js": "/nanawebsite/static/js/787.b8eae7b8.chunk.js",
     "static/media/timelapse.mp4": "/nanawebsite/static/media/timelapse.ccd4d743b511f728d4e8.mp4",
     "static/media/mwsketch.JPG": "/nanawebsite/static/media/mwsketch.63a0468bd53e77f7ac14.JPG",
@@ -39,11 +39,11 @@
     "static/media/love112.png": "/nanawebsite/static/media/love112.dd2970217d66ccc42743.png",
     "index.html": "/nanawebsite/index.html",
     "main.f8d0262f.css.map": "/nanawebsite/static/css/main.f8d0262f.css.map",
-    "main.e2e6a51a.js.map": "/nanawebsite/static/js/main.e2e6a51a.js.map",
+    "main.9b8a8642.js.map": "/nanawebsite/static/js/main.9b8a8642.js.map",
     "787.b8eae7b8.chunk.js.map": "/nanawebsite/static/js/787.b8eae7b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8d0262f.css",
-    "static/js/main.e2e6a51a.js"
+    "static/js/main.9b8a8642.js"
   ]
 }

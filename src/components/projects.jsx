@@ -19,7 +19,7 @@ class Projects extends Component {
 
           <div className="row justify-content-center " id="projects">
             <div className="col-4">
-              <div className="card" style={{ width: 350 }}>
+              <div className="card" style={{ width: 400 }}>
                 <img className="card-img-top" src={ritalucia} alt=" " />
                 <div className="card-body">
                   <h5 className="card-title font-face-fh">
@@ -36,7 +36,7 @@ class Projects extends Component {
             </div>
 
             <div className="col-4 ">
-              <div className="card" style={{ width: 350 }}>
+              <div className="card" style={{ width: 400 }}>
                 <img className="card-img-top" src={mayasweb} alt=" " />
                 <div className="card-body">
                   <h5 className="card-title font-face-fh">Maya's Web</h5>
@@ -51,7 +51,7 @@ class Projects extends Component {
             </div>
 
             <div className="col-4">
-              <div className="card" style={{ width: 350 }}>
+              <div className="card" style={{ width: 400 }}>
                 <img className="card-img-top" src={smc} alt=" " />
                 <div className="card-body">
                   <h5 className="card-title font-face-fh">

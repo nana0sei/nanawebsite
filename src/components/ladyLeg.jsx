@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 import NavSecondary from "./navSecondary";
 import smc from "../images/smc.JPG";
 import mayasweb from "../images/mayasweb.PNG";
@@ -182,9 +183,9 @@ class LadyLeg extends Component {
                     <p className="card-text">
                       <i>Merch for Sony Music Recording Camp</i>
                     </p>
-                    <a href="/nanawebsite/smc" className="btn btn-primary">
+                    <Link to="/nanawebsite/smc" className="btn btn-primary">
                       See details
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -197,9 +198,12 @@ class LadyLeg extends Component {
                     <p className="card-text">
                       <i>Art direction for an EP</i>
                     </p>
-                    <a href="/nanawebsite/mayasweb" className="btn btn-primary">
+                    <Link
+                      to="/nanawebsite/mayasweb"
+                      className="btn btn-primary"
+                    >
                       See details
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -1,23 +1,24 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class NavSecondary extends Component {
   state = {};
   render() {
     return (
       <nav class=" navbar sticky-top bg-white shadow-sm">
-        <a href="/nanawebsite" className="navbar-brand font-face-jw m-2">
+        <Link to="/nanawebsite" className="navbar-brand font-face-jw m-2">
           nana osei
-        </a>
+        </Link>
 
         <ul className="nav justify-content-end font-face-fh">
           <li className="nav-item">
-            <a
+            <Link
               className="nav-link btn btn-link"
               aria-current="page"
-              href="/nanawebsite"
+              to="/nanawebsite"
             >
               about
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
             <button

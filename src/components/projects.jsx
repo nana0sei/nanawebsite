@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import ritalucia from "../images/ritalucia.PNG";
 import smc from "../images/smc.JPG";
 import mayasweb from "../images/mayasweb.PNG";
@@ -27,9 +28,9 @@ class Projects extends Component {
                   <p className="card-text">
                     <i>Emote set for a Twitch streamer</i>
                   </p>
-                  <a href="/nanawebsite/ladyleg" className="btn btn-primary">
+                  <Link to="/nanawebsite/ladyleg" className="btn btn-primary">
                     See details
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -42,9 +43,9 @@ class Projects extends Component {
                   <p className="card-text">
                     <i>Art direction for an EP</i>
                   </p>
-                  <a href="/nanawebsite/mayasweb" className="btn btn-primary">
+                  <Link to="/nanawebsite/mayasweb" className="btn btn-primary">
                     See details
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -59,9 +60,9 @@ class Projects extends Component {
                   <p className="card-text">
                     <i>Merch for Sony Music Recording Camp</i>
                   </p>
-                  <a href="/nanawebsite/smc" className="btn btn-primary">
+                  <Link to="/nanawebsite/smc" className="btn btn-primary">
                     See details
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

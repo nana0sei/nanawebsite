@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 import NavSecondary from "./navSecondary";
 
 //image files
@@ -75,23 +76,23 @@ class MayasWeb extends Component {
             Saezn told me the name of the project and what he wanted to see on
             the cover. The name, <i>Maya's Web</i>, reminded me of neo noir
             franchises like{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Max_Payne"
+            <Link
+              to="https://en.wikipedia.org/wiki/Max_Payne"
               className="font-face-fh"
               style={{ textDecoration: "none" }}
               target="_blank"
             >
               Max Payne
-            </a>{" "}
+            </Link>{" "}
             and{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Sin_City"
+            <Link
+              to="https://en.wikipedia.org/wiki/Sin_City"
               className="font-face-fh"
               style={{ textDecoration: "none" }}
               target="_blank"
             >
               Sin City
-            </a>
+            </Link>
             . Fans of both franchises will notice my references to them
             (especially in the centerpiece). He wasn't specific about the
             positioning of the elements so I was free to shape his "moodboard"
@@ -163,14 +164,14 @@ class MayasWeb extends Component {
             version. Though he seemed okay with it, I told him I wanted to
             remake the cover. I made the second one then, a direct reference to
             the cover art of{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Def_Jam:_Fight_for_NY"
+            <Link
+              to="https://en.wikipedia.org/wiki/Def_Jam:_Fight_for_NY"
               className="font-face-fh"
               style={{ textDecoration: "none" }}
               target="_blank"
             >
               Def Jam: Fight For NY
-            </a>{" "}
+            </Link>{" "}
             (yes I'm a nostalgia merchant). Saezn liked it but he preferred his
             initial concept and I hated how that turned out so for my final
             revision I just decided to remake it from scratch. It was worth it
@@ -182,14 +183,14 @@ class MayasWeb extends Component {
           <p>
             This section contains the tracklist, promotional content and other
             unused concepts from the project. You can stream Maya's Web{" "}
-            <a
-              href="https://music.apple.com/gh/album/mayas-web-ep/1654057914"
+            <Link
+              to="https://music.apple.com/gh/album/mayas-web-ep/1654057914"
               className="font-face-fh"
               style={{ textDecoration: "none" }}
               target="_blank"
             >
               here
-            </a>
+            </Link>
             .
           </p>
           {/*grid start */}
@@ -328,9 +329,9 @@ class MayasWeb extends Component {
                     <p className="card-text">
                       <i>Emote set for a Twitch streamer</i>
                     </p>
-                    <a href="/nanawebsite/ladyleg" className="btn btn-primary">
+                    <Link to="/nanawebsite/ladyleg" className="btn btn-primary">
                       See details
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -345,9 +346,9 @@ class MayasWeb extends Component {
                     <p className="card-text">
                       <i>Merch for Sony Music Recording Camp</i>
                     </p>
-                    <a href="/nanawebsite/smc" className="btn btn-primary">
+                    <Link to="/nanawebsite/smc" className="btn btn-primary">
                       See details
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

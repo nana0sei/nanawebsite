@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 import NavSecondary from "./navSecondary";
 import smc from "../images/smc.JPG";
 import ritalucia from "../images/ritalucia.PNG";
@@ -62,14 +63,14 @@ class Smc extends Component {
           <p>
             When Dontoh sent his ideas for the project, the first thing that
             came to mind was the{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Discman"
+            <Link
+              to="https://en.wikipedia.org/wiki/Discman"
               className="font-face-fh"
               style={{ textDecoration: "none" }}
               target="_blank"
             >
               CD Walkman
-            </a>
+            </Link>
             . I had an older friend who had one and it was an integral part of
             my introduction to music. I wanted to channel that with this project
             so I made the character a kid, holding my own blend of the CD
@@ -115,9 +116,9 @@ class Smc extends Component {
                     <p className="card-text">
                       <i>Emote set for a Twitch streamer</i>
                     </p>
-                    <a href="/nanawebsite/ladyleg" className="btn btn-primary">
+                    <Link to="/nanawebsite/ladyleg" className="btn btn-primary">
                       See details
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -130,9 +131,12 @@ class Smc extends Component {
                     <p className="card-text">
                       <i>Art direction for an EP</i>
                     </p>
-                    <a href="/nanawebsite/mayasweb" className="btn btn-primary">
+                    <Link
+                      to="/nanawebsite/mayasweb"
+                      className="btn btn-primary"
+                    >
                       See details
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -23,10 +23,10 @@ class Home extends Component {
         I just did that so I can refer to it if I forget how to */}
         <div className="container-fluid">
           <div className="row justify-content-between ">
-            <div className="col pt-3 m-2" id="about">
+            <div className="col-sm-4 pt-5" id="about">
               <CarouselComponent />
             </div>
-            <div className="col pt-5 font-face-fl text-end m-3">
+            <div className="col-sm-4 pt-5 font-face-fl text-end mx-2 ">
               <p>
                 Hi, I’m{" "}
                 <strong
@@ -79,8 +79,9 @@ class Home extends Component {
           </div>
           <br />
           <br />
-          <Projects />
+          <br />
         </div>
+        <Projects />
       </div>
     );
   }

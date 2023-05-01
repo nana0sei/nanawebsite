@@ -12,13 +12,13 @@ class Projects extends Component {
           <h3 className="font-face-fh text-warning" style={{ fontSize: 30 }}>
             Projects
           </h3>
-          <p>
+          {/* <p>
             These are some of the projects I have worked on, with commentary on
             the processes behind them.
-          </p>
+          </p> */}
 
           <div className="row justify-content-center " id="projects">
-            <div className="col-4">
+            <div className="col-md-4">
               <div className="card" style={{ width: 400 }}>
                 <img className="card-img-top" src={ritalucia} alt=" " />
                 <div className="card-body">
@@ -35,7 +35,7 @@ class Projects extends Component {
               </div>
             </div>
 
-            <div className="col-4 ">
+            <div className="col-md-4 ">
               <div className="card" style={{ width: 400 }}>
                 <img className="card-img-top" src={mayasweb} alt=" " />
                 <div className="card-body">
@@ -50,7 +50,7 @@ class Projects extends Component {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-md-4">
               <div className="card" style={{ width: 400 }}>
                 <img className="card-img-top" src={smc} alt=" " />
                 <div className="card-body">

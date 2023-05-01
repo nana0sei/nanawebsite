@@ -319,7 +319,7 @@ class MayasWeb extends Component {
             </h5>
 
             <div className="row justify-content-center" id="projects">
-              <div className="col-4">
+              <div className="col-md-4">
                 <div className="card" style={{ width: 400 }}>
                   <img className="card-img-top" src={ritalucia} alt=" " />
                   <div className="card-body">
@@ -336,7 +336,7 @@ class MayasWeb extends Component {
                 </div>
               </div>
 
-              <div className="col-4">
+              <div className="col-md-4">
                 <div className="card" style={{ width: 400 }}>
                   <img className="card-img-top" src={smc} alt=" " />
                   <div className="card-body">

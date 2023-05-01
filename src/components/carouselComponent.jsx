@@ -12,7 +12,7 @@ class CarouselComponent extends Component {
   render() {
     return (
       <Carousel
-        width="550px"
+        width="500px"
         dynamicHeight={true}
         autoPlay
         interval="5000"
